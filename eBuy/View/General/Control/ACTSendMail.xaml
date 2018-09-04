@@ -1,0 +1,54 @@
+﻿<Window x:Name="SendMail" x:Class="eBuy.View.General.Control.ACTSendMail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eBuy.View.General.Control"
+        mc:Ignorable="d"
+        Title="Esqueceu sua senha?" Height="800" Width="513" ResizeMode="NoResize" Icon="/eBuy;component/Images/icon/icon.png" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="/eBuy;component/Images/wallpaper/login.jpg"/>
+    </Window.Background>
+    <!-- Remove button hover property-->
+    <Window.Resources>
+        <Style x:Key="NoHover" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" BorderThickness="0" BorderBrush="Black" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <!-- End of property-->
+    <Grid>
+        <Button x:Name="btnRegister" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="390,707,0,0" Height="50" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnRegister_Click" Style="{StaticResource NoHover}">
+            <Button.Background>
+                <ImageBrush ImageSource="/eBuy;component/Images/icon/main/success-white.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnBack" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="10,740,0,0" Height="50" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnBack_Click" Style="{StaticResource NoHover}">
+            <Button.Background>
+                <ImageBrush ImageSource="/eBuy;component/Images/icon/main/previous-white.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblEmail" Content="E-Mail:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,591,0,0" Foreground="White" FontSize="21.333"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Margin="102,599,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" FontSize="21.333" ToolTip="Seu nome de usuário." SelectionBrush="White" TextChanged="txtEmail_TextChanged"/>
+        <Label x:Name="lblText" Content="Nós lhe enviaremos um email com seu nome de usuário e senha." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,520,0,0" Width="471" Foreground="White" FontSize="16"/>
+        <Label x:Name="lblR" Content="R" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="64" FontWeight="Bold" Foreground="White" Margin="98,47,0,0"/>
+        <Label x:Name="lbleenviar" Content="eenviar" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="64" Foreground="White" Margin="143,47,0,0"/>
+        <Label x:Name="lblS" Content="S" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="64" FontWeight="Bold" Foreground="White" Margin="202,142,0,0"/>
+        <Label x:Name="lblEnha" Content="enha" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="64" Foreground="White" Margin="237,142,0,0"/>
+
+    </Grid>
+</Window>

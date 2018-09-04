@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31EAA44A-E28A-4CE7-8379-895D61B87F33}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eBuy</RootNamespace>
+    <AssemblyName>eBuy</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FirstFloor.ModernUI, Version=1.0.9.0, Culture=neutral, PublicKeyToken=bc9b0c37bf06c6a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUI.WPF.1.0.9\lib\net45\FirstFloor.ModernUI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.8.1.1, Culture=neutral, PublicKeyToken=c5935629d38af058, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.8.1.1\lib\net40\LiveCharts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.8.1.1, Culture=neutral, PublicKeyToken=3b585c2a5f1a92c1, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.8.1.1\lib\net45\LiveCharts.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=1.4.0.42, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.4.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Input.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Layout.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Layout.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.4.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\WPFToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Controller\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controller\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\DAO\ConnectionFactory.cs" />
+    <Compile Include="Model\DAO\DAOProduct.cs" />
+    <Compile Include="Model\DAO\DAOUser.cs" />
+    <Compile Include="Model\TOProduct.cs" />
+    <Compile Include="Model\TOUser.cs" />
+    <Compile Include="View\General\ACTHome.xaml.cs">
+      <DependentUpon>ACTHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\General\Control\ACTMessages.xaml.cs">
+      <DependentUpon>ACTMessages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\General\Control\ACTSendMail.xaml.cs">
+      <DependentUpon>ACTSendMail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Product\Registration\ACTBuyingDate.xaml.cs">
+      <DependentUpon>ACTBuyingDate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Product\Registration\ACTProductRegistration.xaml.cs">
+      <DependentUpon>ACTProductRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Registration\ACTHouseSelection.xaml.cs">
+      <DependentUpon>ACTHouseSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Registration\ACTUserRegistration.xaml.cs">
+      <DependentUpon>ACTUserRegistration.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\General\Control\ACTLogin.xaml.cs">
+      <DependentUpon>ACTLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Controller\packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Controller\App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="View\General\ACTHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\General\Control\ACTLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\General\Control\ACTMessages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\General\Control\ACTSendMail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Product\Registration\ACTBuyingDate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Product\Registration\ACTProductRegistration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\User\Registration\ACTHouseSelection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\User\Registration\ACTUserRegistration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\error-black.png" />
+    <Resource Include="Images\icon\main\error-white.png" />
+    <Resource Include="Images\icon\main\hide-black.png" />
+    <Resource Include="Images\icon\main\hide-white.png" />
+    <Resource Include="Images\icon\main\locked-black.png" />
+    <Resource Include="Images\icon\main\locked-white.png" />
+    <Resource Include="Images\icon\main\new-user-black.png" />
+    <Resource Include="Images\icon\main\new-user-white.png" />
+    <Resource Include="Images\icon\main\previous-black.png" />
+    <Resource Include="Images\icon\main\previous-white.png" />
+    <Resource Include="Images\icon\main\search-black.png" />
+    <Resource Include="Images\icon\main\search-white.png" />
+    <Resource Include="Images\icon\main\success-black.png" />
+    <Resource Include="Images\icon\main\success-white.png" />
+    <Resource Include="Images\icon\main\unlocked-black.png" />
+    <Resource Include="Images\icon\main\unlocked-white.png" />
+    <Resource Include="Images\icon\main\user-black.png" />
+    <Resource Include="Images\icon\main\user-white.png" />
+    <Resource Include="Images\icon\main\view-black.png" />
+    <Resource Include="Images\icon\main\view-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wallpaper\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\info-black.png" />
+    <Resource Include="Images\icon\main\info-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\warning-black.png" />
+    <Resource Include="Images\icon\main\warning-red.png" />
+    <Resource Include="Images\icon\main\warning-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\file-1.png" />
+    <Resource Include="Images\icon\main\file-4.png" />
+    <Resource Include="Images\icon\main\file.png" />
+    <Resource Include="Images\icon\main\folder-1.png" />
+    <Resource Include="Images\icon\main\folder-2.png" />
+    <Resource Include="Images\icon\main\folder-3.png" />
+    <Resource Include="Images\icon\main\folder-4.png" />
+    <Resource Include="Images\icon\main\folder-5.png" />
+    <Resource Include="Images\icon\main\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wallpaper\houses\gryffindor.jpg" />
+    <Resource Include="Images\wallpaper\houses\hufflepuff.jpg" />
+    <Resource Include="Images\wallpaper\houses\ravenclaw.jpg" />
+    <Resource Include="Images\wallpaper\houses\slytherin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\houses\gryffindor.png" />
+    <Resource Include="Images\icon\houses\hufflepuff.png" />
+    <Resource Include="Images\icon\houses\ravenclaw.png" />
+    <Resource Include="Images\icon\houses\slytherin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\characters\1.png" />
+    <Resource Include="Images\icon\characters\2.png" />
+    <Resource Include="Images\icon\characters\3.png" />
+    <Resource Include="Images\icon\characters\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wallpaper\main-screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\foward-black.png" />
+    <Resource Include="Images\icon\main\foward-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\photo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon\main\tag.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

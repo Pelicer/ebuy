@@ -1,0 +1,119 @@
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\Controller\App.g.cs
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.cache
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.lref
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe.config
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.pdb
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MySql.Data.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\WPFToolkit.dll
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.pdb
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.xml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csprojResolveAssemblyReference.cache
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.baml
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.g.resources
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.Properties.Resources.resources
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csproj.GenerateResource.Cache
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.exe
+C:\Users\wordf\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.pdb
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe.config
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.exe
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.pdb
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.pdb
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MySql.Data.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\WPFToolkit.dll
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.pdb
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.xml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csprojResolveAssemblyReference.cache
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\Controller\App.g.cs
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.cache
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.lref
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.baml
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.g.resources
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.Properties.Resources.resources
+C:\Users\wordf\Desktop\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csproj.GenerateResource.Cache
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe.config
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.exe
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.pdb
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.pdb
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MySql.Data.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\WPFToolkit.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.pdb
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\MahApps.Metro.xml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csprojResolveAssemblyReference.cache
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTBuyingDate.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\Controller\App.g.cs
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.cache
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy_MarkupCompile.lref
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\ACTHome.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTLogin.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTMessages.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\General\Control\ACTSendMail.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTBuyingDate.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\Product\Registration\ACTProductRegistration.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTHouseSelection.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\View\User\Registration\ACTUserRegistration.baml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.g.resources
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.Properties.Resources.resources
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.csproj.GenerateResource.Cache
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.pdb
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.xml
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\wordf\Documents\Visual Studio 2015\Projects\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\GAMESTATION\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\bin\Debug\eBuy.exe.config
+C:\Users\GAMESTATION\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.exe
+C:\Users\GAMESTATION\Google Drive\SIG\Projetos\SIG 6 - eBuy\eBuy\eBuy\eBuy\obj\Debug\eBuy.pdb

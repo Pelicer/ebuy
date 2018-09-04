@@ -1,0 +1,28 @@
+﻿<Window x:Name="HouseSelection" x:Class="eBuy.View.User.Registration.ACTHouseSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eBuy.View.User.Registration"
+        mc:Ignorable="d"
+        Title="Seleção de Casa" Height="500" Width="500" ResizeMode="NoResize" Icon="/eBuy;component/Images/icon/icon.png" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FF3A3A3C">
+    <Grid>
+        <Label x:Name="lblHouseSelection" Content="Seleção de Casa" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="26.667" FontFamily="Times New Roman"/>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="0" VerticalAlignment="Top" Width="500" Background="White" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.155"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.247"/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Label x:Name="lblMessage" Content="Quase pronto. Agora escolha sua casa na melhor escola de magia e bruxaria do mundo." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,78,0,0" Width="480" Foreground="White"/>
+        <Image x:Name="imgS" HorizontalAlignment="Left" Height="465" VerticalAlignment="Top" Width="375" Margin="-66,78,0,-43" Source="/eBuy;component/Images/icon/houses/slytherin.png" MouseDown="imgS_MouseDown"/>
+        <Image x:Name="imgG" HorizontalAlignment="Left" Height="465" VerticalAlignment="Top" Width="374" Margin="188,78,-62,-43" Source="/eBuy;component/Images/icon/houses/gryffindor.png" MouseDown="imgG_MouseDown"/>
+        <Image x:Name="imgR" HorizontalAlignment="Left" Height="465" VerticalAlignment="Top" Width="374" Margin="188,252,-62,-217" Source="/eBuy;component/Images/icon/houses/ravenclaw.png" MouseDown="imgR_MouseDown"/>
+        <Image x:Name="imgH" HorizontalAlignment="Left" Height="465" VerticalAlignment="Top" Width="374" Margin="-66,252,0,-217" Source="/eBuy;component/Images/icon/houses/hufflepuff.png" MouseDown="imgH_MouseDown"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,53 @@
+﻿<Window x:Name="BuyingDateScreen" x:Class="eBuy.View.Product.Registration.ACTBuyingDate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eBuy.View.Product.Registration"
+        mc:Ignorable="d"
+        Title="ACTBuyingDate" Height="329" Width="391" ResizeMode="NoResize" Icon="/eBuy;component/Images/icon/icon.png" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FF414141">
+    <Window.Resources>
+        <Style x:Key="NoHover" TargetType="{x:Type Button}">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="Black" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BlueBorder" TargetType="{x:Type Button}">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="1" BorderBrush="#FF22C3FF" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Label x:Name="lblDate" Content="Quando você comprou este produto?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="21.333" Foreground="White" Width="371"/>
+        <Button x:Name="btnUpdate" Content="OK" Foreground="White" BorderThickness="1"  Style="{StaticResource NoHover}" FontSize="16" Margin="140,289,136,10" Click="btnUpdate_Click"/>
+        <TextBox x:Name="txtDate" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" Margin="10,252,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" BorderThickness="0,0,0,1" FontSize="21.333"/>
+        <Calendar x:Name="DateChooser" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,79,0,0" SelectedDatesChanged="DateChooser_SelectedDatesChanged"/>
+    </Grid>
+</Window>
